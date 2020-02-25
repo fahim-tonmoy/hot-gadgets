@@ -6,9 +6,13 @@ body{
 }
 .navbar-nav a{
     color: black;
-    font-size: 20px;
+    font-size: 15px;
     
 }
+.carousel-indicators .active{
+    background-image: linear-gradient(to left,#FFD019 0%,#FF9C35 100%);
+    width: 30px;
+    }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 2rem;
     padding-left: .5rem;
@@ -35,4 +39,22 @@ body{
 .sall{
     color: orange;
     cursor: pointer;
+}
+.contact{
+ padding-top: 30px; 
+ color: dimgray;  
+}
+.category-border{
+    background-image: linear-gradient(to right,#FFD019 0%,#FF9C35 100%);
+    width: 8%;
+    height: 8px;
+    border-radius: 5px;
+  }
+.submit{
+    padding-top: 20px;
+}
+
+.foot{
+    text-align: center;
+    color: dimgray;
 }
